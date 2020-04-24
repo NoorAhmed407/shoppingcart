@@ -1,9 +1,9 @@
 import React from 'react';
-import Counters from './components/counters';
+import Section from './components/section';
 
 function App() {
   return (
-    <Counters />
+    <Section />
   );
 }
 
