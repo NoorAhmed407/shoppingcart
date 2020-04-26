@@ -1,9 +1,9 @@
 import React from 'react';
-import Card from './components/cards';
+import Cards from './components/cards';
 
 function App() {
   return (
-    <Card />
+    <Cards />
   );
 }
 
