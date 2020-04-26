@@ -1,13 +1,18 @@
 import React, {Component} from 'react';
-import './cardstyle.css';
+import './css/cardstyle.css';
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 
 const Card = (props) =>{
+
+    AOS.init()
+
     return(
         <div className="col-md-3">
                 <div class="shadow p-3 bg-white rounded mt-2">
                     <div className="box p-1">
-                        <p className="font-b">{props.caption}</p>
-                        <span className="float-right p-3"><img src="https://img.icons8.com/android/24/000000/right.png" alt="icon" /></span>
+                        <p className="font-weight-bold" data-aos="zoom-in-up">{props.caption}</p>
+                        <span className="float-right p-1"><img src="https://img.icons8.com/android/24/000000/right.png" alt="icon" /></span>
                     </div>
                 </div>
         </div>
