@@ -1,9 +1,9 @@
 import React from 'react';
-import Section from './components/section';
+import Card from './components/cards';
 
 function App() {
   return (
-    <Section />
+    <Card />
   );
 }
 

@@ -40,7 +40,7 @@ class Section extends Component {
     }
     render(){
         return(
-                <div className="container">
+                <div className="container-fluid">
                         <h1 className="text-center p-5">First Section Project</h1>
                         <div className="row">
                             {this.getComponent()}
